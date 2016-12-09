@@ -1,7 +1,7 @@
 /*creating a interface to read the file*/
 var read=require('fs');              
 var lineReader = require('readline').createInterface({
-	input: read.createReadStream('Indicators.csv'),
+	input: read.createReadStream('../Indicators.csv'),
 });
 
 /*insializing variables*/
